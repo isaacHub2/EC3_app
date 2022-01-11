@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">EC3_IHB_app</string>
+    <string name="app_name">EduRoom</string>
+    <string name="app_login">Inicio de Sesión</string>
+    <string name="login_username">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_cancel_button">Cancelar</string>
+    <string name="login_button">Ingresar</string>
+    <string name="login_error_message">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="course_title">Nombre Curso</string>
+    <string name="nav_bottom_calendar">Calendario</string>
+    <string name="nav_bottom_favorites">Favoritos</string>
+    <string name="nav_bottom_courses">Cursos</string>
+    <string name="nav_bottom_settings">Configuraciones</string>
+    <string name="title_sub_menu">Configuraciones</string>
+    <string name="button_edit">Editar Foto</string>
+
+    <string name="settings_secction">Preferencias</string>
+    <string name="settings_option_languaje">Idioma</string>
+    <string name="settings_option_languajeSelected">Español</string>
+    <string name="settings_option_darkMode">Modo Oscuro</string>
+    <string name="settings_option_wifi">Solo descargar via WiFi</string>
+    <string name="settings_option_logout">Cerrar Sesión</string>
 </resources>

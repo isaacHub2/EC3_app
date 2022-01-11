@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Historia",
+    "url": "https://images.unsplash.com/photo-1513120052856-2b18c0d4f696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+  },
+  {
+    "title": "Geografia",
+    "url": "https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "title": "Quimica",
+    "url": "https://images.unsplash.com/photo-1628863353691-0071c8c1874c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "title": "Biologia",
+    "url": "https://cdn.pixabay.com/photo/2015/10/22/17/45/leaf-1001679_960_720.jpg"
+  },
+  {
+    "title": "Matematicas",
+    "url": "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "title": "Literatura",
+    "url": "https://images.unsplash.com/photo-1512847930783-39fdc971594b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+  }
+]

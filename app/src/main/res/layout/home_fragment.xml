@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".HomeFragment"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/Widget.EC3.Backdrop"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="80dp"
+        android:paddingBottom="100dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/settings_button"
+            style="@style/Widget.EC3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_bottom_settings"
+            />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/backdrop" />
+    </LinearLayout>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/app_bar"
+            style="@style/Widget.EC3.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:title="@string/app_name"
+            app:navigationIcon="@drawable/ic_outline_widgets_24"
+            app:titleTextColor="@color/wild_watermelon_100"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/course_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:background="?attr/colorOnPrimary"
+        android:paddingStart="@dimen/course_grid_spacing"
+        android:paddingEnd="@dimen/course_grid_spacing"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
